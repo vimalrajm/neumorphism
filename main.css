@@ -63,6 +63,7 @@ body {
     align-items: center;
     text-transform: capitalize;
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 .heading {
