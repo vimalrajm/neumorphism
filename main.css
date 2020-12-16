@@ -74,7 +74,7 @@ body {
     animation: colorChange 2s infinite alternate ease-in;
 }
 
-@keyframes boxMove {
+@-webkit-keyframes boxMove {
     0% {
         box-shadow: none;
     }
@@ -86,7 +86,7 @@ body {
     }
 }
 
-@keyframes insetBoxMove{
+@-webkit-keyframes insetBoxMove{
     0% {
         box-shadow: none;
     }
@@ -98,7 +98,7 @@ body {
     }
 }
 
-@keyframes covexBoxMove {
+@-webkit-keyframes covexBoxMove {
     0% {
         box-shadow: none;
     }
@@ -110,7 +110,7 @@ body {
     }
 }
 
-@keyframes concaveBoxMove {
+@-webkit-keyframes concaveBoxMove {
     0% {
         box-shadow: none;
     }
@@ -122,7 +122,7 @@ body {
     }
 }
 
-@keyframes colorChange {
+@-webkit-keyframes colorChange {
     0%{
         color: white;
     }
